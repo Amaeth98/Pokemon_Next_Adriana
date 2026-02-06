@@ -104,6 +104,12 @@ export default function ModalPage() {
         )}
       </Modal.Body>
       <Modal.Footer>
+        <Button variant="Anterior" onClick={() => router.push(`/pokemon/${parseInt(id || "1") - 1}`)}>
+          {dict.anterior}
+        </Button>
+        <Button variant="siguiente" onClick={() => router.push(`/pokemon/${parseInt(id || "1000") + 1}`)}>
+          {dict.sigiente}
+        </Button>
         <Button variant="secondary" onClick={() => router.push("/")}>
           {dict.close}
         </Button>

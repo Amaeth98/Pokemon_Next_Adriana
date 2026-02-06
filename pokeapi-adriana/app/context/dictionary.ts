@@ -20,6 +20,9 @@ const dictionaries = {
     errorPokemon: "Error cargando el Pokémon",
     retry: "Reintentar",
     unknownError: "Ha ocurrido un error inesperado",
+    otros: "Otros",
+    anterior: "Anterior",
+    sigiente: "Siguiente",
 
   },
 
@@ -44,6 +47,9 @@ const dictionaries = {
     errorPokemon: "Error loading Pokémon",
     retry: "Retry",
     unknownError: "An unexpected error occurred",
+    otros: "Others",
+    anterior: "Previous",
+    sigiente: "Next",
 
   },
 
@@ -68,6 +74,9 @@ const dictionaries = {
     errorPokemon: "Erreur lors du chargement du Pokémon",
     retry: "Réessayer",
     unknownError: "Une erreur inattendue s’est produite",
+    otros: "Autres",
+    anterior: "Précédent",
+    sigiente: "Suivant",
 
   },
 };

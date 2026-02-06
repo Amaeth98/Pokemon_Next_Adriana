@@ -32,9 +32,14 @@ export default function MyNavbar() {
               <NavDropdown.Item as={Link} href="/generation/2">
                 Gen 2
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} href="/generation/3">
-                Gen 3
-              </NavDropdown.Item>
+              <NavDropdown title={dict.otros} id="otros" drop="end">
+                <NavDropdown.Item as={Link} href="/generation/3">
+                  Gen 3
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} href="/generation/4">
+                  Gen 4
+                </NavDropdown.Item>
+              </NavDropdown>
             </NavDropdown>
 
             <Nav.Link as={Link} href="/contact">
