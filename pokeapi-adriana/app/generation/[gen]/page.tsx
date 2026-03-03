@@ -36,7 +36,7 @@ export default function GenerationPage() {
         const data = await res.json();
         const selected = data.pokemon_species
           .sort(() => 0.5 - Math.random())
-          .slice(0, 10);
+          .slice(0, 12);
 
         const pokemonsData = await Promise.all(
           selected.map(async (p: any) => {
